@@ -75,4 +75,6 @@ def generate_launch_description():
                 arguments=t.split()
                 ))
 
-    return launch.LaunchDescription(n)
+    return LaunchDescription([
+        n
+    ])
