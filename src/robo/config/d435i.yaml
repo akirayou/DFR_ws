@@ -1,0 +1,27 @@
+/d435i:
+  camera:
+    ros__parameters:
+      serial_no: 000000000
+      align_depth: false
+      enable_pointcloud: false
+      dense_pointcloud: false
+      color0:
+        enabled: false
+        resolution: [424,240]
+        fps: 6
+      depth0:
+        enabled: true
+        resolution: [424,240]
+        fps: 6
+      infra1:
+        enabled: false
+        resolution: [424,240]
+        fps: 6
+      infra2:
+        enabled: false
+        resolution: [424,240]
+        fps: 6
+      accel0:
+        enabled: false
+      gyro0:
+        enabled: false

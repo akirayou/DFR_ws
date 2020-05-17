@@ -1,0 +1,18 @@
+/t265:
+  camera:
+    ros__parameters:
+      serial_no: 000000000
+      fisheye1:
+        enabled: false
+        resolution: [848,800]
+        fps: 15
+      fisheye2:
+        enabled: false
+        resolution: [848,800]
+        fps: 15
+      accel0:
+        enabled: false
+      gyro0:
+        enabled: false
+      pose0:
+        enabled: true
